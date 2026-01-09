@@ -26,7 +26,6 @@ body {
 .logo {
     width: 140px;
     height: 60px;
-    margin-left: 120px;
     margin-top: 16px;
 
 
@@ -55,7 +54,14 @@ body {
     border: none;
     cursor: pointer;
 
+    transition: all 0.3 ease;
+
 }
+
+.btn:hover{
+    background-color: rgb(170, 23, 136);
+}
+
 
 .hero {
     min-height: 100vh;
@@ -139,7 +145,13 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+
+    transition: all 0.3 ease;
 }
+.primary-btn:hover{
+    background-color: rgb(170, 23, 136);
+}
+
 
 .primary-btn img {
     width: 16px;
@@ -274,7 +286,6 @@ body {
     font-weight: 500;
     line-height: 20px;
     text-align: left;
-    /* margin: 15px; */
     margin-bottom: 5px;
     text-transform: uppercase;
 }
@@ -356,9 +367,16 @@ body {
     margin-bottom: 16px;
     display: inline-flex;
     gap:10px;
+
+    transition: all 0.3 ease;
     
 
 }
+
+.ready-part .r-btn:hover{
+    background-color: rgb(170, 23, 136);
+}
+
 
 
 .ready-part h5{
@@ -369,44 +387,55 @@ body {
 }
 
 
-.footer {
-  background: var(--Style, rgba(0, 25, 49, 1));
+ .footer{
+  background: rgba(0, 25, 49, 1);
   color: #fff;
-  padding: 40px 80px 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid rgba(255,255,255,0.15);
-  padding-bottom: 30px;
+  padding: 40px 120px 30px;
+  flex-direction: column;
+  min-height: 260px;
+}
+.footer .footer-social-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
 }
 
 .footer img{
-    margin-left: 120px;
-    width: 139px;
-    height: 60px;
-    margin-bottom:140px ;
+  width: 139px;
+  height: 60px;
+  align-self: flex-start;
+  margin-top: 15px;
 }
 
-.footer h2{
-    color: rgba(255, 255, 255, 1);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
-    
+.divider{
+  width: 100%;
+  height: 1px;
+  background: rgba(255,255,255,0.15);
+  margin-bottom: 25px;
+  
 }
 
-.footer .icon-social{
-    display: flex;
-    gap: 16px;
-    list-style: none;
-    margin-top: 16px;
-    margin-bottom: 140px;
-    
+.footer-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
 }
 
-.footer p{
-    margin-top: 270px;
-
+.footer-bottom p{
+  font-size: 14px;
+  margin:0 auto
 }
 
+.foot-all h2{
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
 
+.icon-social{
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin-top: 16px;
+  margin-bottom: 200px;
+}
