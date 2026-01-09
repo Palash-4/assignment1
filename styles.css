@@ -34,7 +34,6 @@ body {
 .list-navigation{
     display: flex;
     gap:32px ;
-    font-family: sans-serif;
     list-style: none;
     margin-top: 34px;
     font-size: 16px;
@@ -165,5 +164,138 @@ cursor: pointer;
   border-bottom: 5px solid transparent;
   border-left: 12px solid white;
   
+}
+
+.notes {
+  text-align: center;
+  padding: 60px 20px;
+
+
+}
+
+.notes h1 {
+  font-size: 48px;
+  font-weight: 700;
+
+
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 16px;
+}
+
+.problems {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.problems h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-weight: 400;
+    margin: 0 auto 50px;
+    font-size: 16px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 120px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 1);
+    width: 322px;
+    height: 300px;
+    padding:24px;
+    margin-top: 44px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);    
+    text-align: center;
+}
+
+.card img {
+    margin-top: 70px;
+    margin-bottom: 16px;
+    padding:14;
+    border-radius: 50%;
+    background: rgba(249, 85, 85, 1);
+}
+
+
+.card h3 {
+    font-size: 25px;
+    color:var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-weight: 600;
+    line-height: 29px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.card p {
+    font-size: 16px;
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+.knowledge-part{
+    display: flex;
+    gap: 60px;
+    padding: 120px;
+}
+
+.knowledge-part .k-img{
+    border-radius: 12px;
+    width: 600px;
+    height: 600px;
+    
+
+}
+
+.knowledge-part h3{
+/* color: var(--#30B868, rgba(70, 145, 101, 1)); */
+color: #3f8f5a;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+margin: 15px;
+text-transform: uppercase;
+}
+
+.knowledge-part h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.knowledge-part p{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    margin-bottom: 15px;
+
+
+}
+
+.knowledge-part ul{
+    list-style: none;
+}
+
+.knowledge-part .solution-part{
+    margin-top: 102px;
 }
 
